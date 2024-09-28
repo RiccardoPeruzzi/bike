@@ -1,0 +1,54 @@
+h1{
+    font: 250% Arial; 
+    color:rgb(5, 204, 204);
+    text-align: center;
+    font-weight: bold;
+    /*text-decoration: underline; */
+}
+
+h2{
+    font: 230% Arial; 
+    color:rgb(5, 204, 204);
+    text-align: center;
+   
+}
+
+h3{
+    font: 250% Helvetica; 
+    color:rgb(5, 204, 204);
+    text-align: center;
+    font-weight: bold;
+}
+
+h4{
+    font: 100% Georgia;
+    color:white;
+
+}
+
+p{
+    font: 115% Georgia;
+    text-align: justify;
+    color:white;
+
+}
+
+ul{
+    font: 120% Georgia;
+    text-align: justify;
+    color:white;
+
+}
+
+a{
+    font: 110% Georgia;
+    text-align: justify;
+    color:rgb(255, 255, 255);
+}
+
+form{
+    font: 100% Georgia;
+    text-align: justify;
+    color:white;
+
+}

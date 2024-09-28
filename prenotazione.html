@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Richiesta di acquisto </title>
+    <link rel="stylesheet" href="style_prenotazione.css" type="text/css">
+</head>
+
+<body style="background-color:rgba(0, 0, 0, 0.897)">
+    <img src="logo-bianchi-white.svg" alt="Image" height="50" width="130">
+    <h1 style="line-height: 8mm;">Richiesta di acquisto</h1>
+    <p> <u>Compilando questo modulo verrà inviata una richiesta di acquisto alla casa produttrice</u></p>
+    <form action="URL-script">
+    <p> 
+        Nome <input type="text" name="casellaNome" size="10">  Cognome <input type="text" name="casellaCognome" size="10"> <br> <br>
+        Data di nascita <input type="date"> 
+        Luogo di nascita <input type="text" name="casellaLuogodinascita" size="15"> <br> <br>
+        Città di residenza <input type="text" name="casellaLuogodiresidenza" size="15"> 
+        Via <input type="text" name="casellavia" size="15"> 
+        CAP <input type="text" name="casellaCAP" size="8"> 
+        Scegli la regione: 
+        <select name="regioni" value="scegli">
+            <option value="o"></option>
+            <option value="1">Abruzzo</option>
+            <option value="2">Basilicata</option>
+            <option value="3">Calabria</option>
+            <option value="4">Campania</option>
+            <option value="5">Emilia-Romagna</option>
+            <option value="6">Friuli Venezia Giulia</option>
+            <option value="7">Lazio</option>
+            <option value="8">Liguria</option>
+            <option value="9">Lombardia</option>
+            <option value="10">Marche</option>
+            <option value="11">Molise</option>
+            <option value="12">Piemonte</option>
+            <option value="13">Puglia</option>
+            <option value="14">Sardegna</option>
+            <option value="15">Sicilia</option>
+            <option value="16">Toscana</option>
+            <option value="17">Trentino Alto Adige</option>
+            <option value="18">Umbria</option>
+            <option value="19">Valle d'Aosta</option>
+            <option value="20">Veneto</option>
+        </select> <br> <br> 
+        Codice fiscale <input type="text" name="casellacodicefiscale" size="25"> <br> <br>
+        Email <input type="text" name="casellaemail" size="34"> <br> <br>
+        Scegli il modello da richiedere: (Modello/Trasmissione/Colore) <br>
+            <input type="radio" name="modello" value="risp1" > Arcadex/GRX 600/gold storm  <br>
+            <input type="radio" name="modello" value="risp2"> Arcadex/GRX 600/GX <br>
+            <input type="radio" name="modello" value="risp3"> Arcadex/GRX 810/gold storm <br>
+            <input type="radio" name="modello" value="risp4"> Arcadex/GRX 810/GX <br>
+            <input type="radio" name="modello" value="risp5"> Arcadex/GRX 815 Di2/gold storm <br>
+            <input type="radio" name="modello" value="risp6"> Arcadex/GRX 815 Di2/GX <br> <br>
+        Scegli la taglia:  <br>
+            <input type="radio" name="taglia" value="risp1" > S  <br>
+            <input type="radio" name="taglia" value="risp2"> M <br>
+            <input type="radio" name="taglia" value="risp3"> L <br>
+            <input type="radio" name="taglia" value="risp4"> XL <br> <br>
+        Note <input type="text" name="casellaNome" size="50"> <br> <br>
+            <input type="reset" name="reset" value="Elimina tutto"> 
+            <input type="button" value="salva">
+            <input type="button" value="Invia dati"> <br>
+        <a href= "principale.html">Torna alla pagina precedente</a> 
+    </form>
+    </p>
+
+</body>
+
+</html>
